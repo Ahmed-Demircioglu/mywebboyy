@@ -1,0 +1,438 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+    
+}
+
+
+/* start\ add background image*/
+/*
+.background-container{
+    background-image: url(./img/back1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+*/
+/*end*/
+.name{
+    font-family: 'Changa', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfdfd;
+    
+ }
+
+
+ button{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+ }
+ button:hover{
+    background-color: #fad3f5c7;
+}
+
+ header{
+    
+    display: flex;
+    width: 90%;
+   height: 10vh;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.logo-container,.nav-links {
+    display: flex;
+}
+ .logo-container {
+    flex: 1;
+ }
+ .logo-container img{
+     padding: 0%;
+     display: flex;
+     height: 8vh;
+
+ }
+ 
+.logo{
+    font-weight: 500;
+    margin: 5px;
+    color:  #353536;
+    
+}
+
+nav {
+
+    flex: 2;
+    }
+
+.nav-links{
+        justify-content: space-around;
+        list-style: none;
+        
+      
+}   
+.nav-link{
+
+    color: rgb(29, 29, 28);
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.home-btn {
+   
+    border: 1px solid  #fc801a;
+    background: transparent;
+    color: #fc801a;
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+.about-me-btn{
+    border: 1px solid  #fc801a;
+    background: transparent;
+    color: #fc801a;
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.contact-btn{
+    border: 1px solid  #fc801a;
+    background: transparent;
+    color: #fc801a;
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.presentation{
+    
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 50vh;
+    align-items: center;
+}
+.introduction{
+  
+    flex: 1;
+
+}
+.name h1{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 300;
+    color: #353536;
+    /*
+    filter: drop-shadow(-20px 15px 5px rgb(247, 148, 68));
+    */
+    /*not in use */
+}
+.name img {
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    z-index: +1;
+    height: 5vh;
+    
+}
+.about-me-container{
+    
+    height: 78vh;
+    position: relative;
+}
+.proflie-img img{
+    position: absolute;
+    height: 28vh;
+    top: 10%;
+    right:8%;
+    
+
+    
+}
+
+.dashboard img{
+    position: absolute;
+    top: 19%;
+    left: 7%;
+    height: 75vh;
+    width:820px;
+    z-index: -1;
+    
+    
+}
+.programimg-langs h2{
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #353536;
+}
+.programimg-langs img{
+    margin: 3% 0% 0% 3% ;
+    height: 25vh;
+    width: 20%;
+}
+.computer-skills h2{
+    position: absolute;
+    bottom: 32%;
+    left: 9%;
+    font-size: 20px;
+    font-weight: 400;
+    color: #353536;
+}
+.computer-skills img{
+    
+    margin: 3% 0% 0% 3% ;
+    position: absolute;
+    top: 60%;
+
+    height: 28vh;
+    width: 23%;
+    
+}
+.professions{
+    
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    height: 50vh;
+    width: 200px;
+
+}
+.professions h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #353536;
+}
+.professions h3{
+    margin: 2%;
+    font-size: 17px;
+    font-weight: 300;
+    color: #353536;
+}
+.professions p{
+    margin: 2%;
+    font-size: 14px;
+    font-weight: 300;
+    color: #353536;
+}
+.about-me-text{
+    
+
+    margin: 0% 0% 0% 0%;
+    width: 200px;
+    position: absolute;
+    top: 25%;
+    right: 22%;
+}
+
+.about-me-text h2{
+    
+    font-size: 20px;
+    font-weight: 300;
+    color:  #353536;
+}
+
+.about-me-text p{
+    font-weight: 300;
+    margin-top: 5px;
+    font-size: 14px;
+    color:  #353536;
+}
+
+
+.my-img img{
+   
+    position: absolute;
+    bottom: 9px;
+    right: 0%;
+    flex: 1;
+    display: flex;
+    margin: 0% 0% 0% 0%;
+    height: 95vh;
+    z-index: -1;
+    
+}
+
+/* start / testing this btn with different methods*/
+.btn{
+    margin: 5% 0% 0% 40%;
+    border: 1px solid  #fc801a;
+    background: transparent;
+    color: #fc801a;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}/*End btn*/
+
+/* responsivnees*/
+@media screen and (max-width: 1024px){
+
+    section{
+        
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+    }
+
+    .nav-link button{
+        width: 75px;
+        font-size: 10px;
+    }
+    .introduction{
+        
+        flex-direction: column;
+    }
+    .dashboard{
+        
+        position: absolute;
+        top: 80px;
+        left: -150px;
+        width: 400px;
+        height: 180vh;
+       
+        flex-direction: column;
+    }
+    .dashboard img{
+        
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 700px;
+        width:350px;
+        
+    }
+    .about-me-container{
+        flex-direction: column;
+        align-content: center;
+    }
+    .proflie-img img{
+        position: absolute;
+        height: 25vh;
+        top: 0%;
+        left: 50px;
+    }
+    .name img{
+        position: absolute;
+        width: 50%;
+        height: 20px;
+        left: 10%;
+        top: 20%;
+        align-self: center;
+    }
+    .programimg-langs h2{
+        position: absolute;
+        top: 330px;
+        left: 85px;
+        width: 50%;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .programimg-langs img{
+        position: absolute;
+        top: 310px;
+        left: 100px;
+        width: 120px;
+        height: 25vh;
+    }
+    .computer-skills{
+        width: 200px;
+       
+    }
+    .computer-skills h2{
+        position: absolute;
+        top: 450px;
+        left: 120px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .computer-skills img{
+        position: absolute;
+        top: 460px;
+        left: 88px;
+        width: 180px;
+        height: 25vh;
+    }
+    .about-me-text{
+        position: absolute;
+        top: 35px;
+        left: 5%;
+        width: 300px;
+        height: 50vh;
+        
+        
+    }
+    .about-me-text h2{
+        
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 50%;
+        font-weight: 300;
+        margin-top: 5px;
+        font-size: 18px;
+        color:  #353536;
+        
+    }
+    .about-me-text p{
+        position: absolute;
+        top: 35px;
+        left: 0%;
+        
+        font-weight: 300;
+        margin-top: 5px;
+        font-size: 10px;
+        color:  #353536;
+        
+    }
+    .professions{
+        position: absolute;
+        top: 190px;
+        left: 5%;
+        width: 300px;
+        
+    }
+    .professions h2{
+        position: absolute;
+        top: -20px;
+        left: 0%;
+        font-size: 18px;
+        font-weight: 300;
+        color: #353536;
+    }
+    .professions h3{
+        
+        font-size: 13px;
+        font-weight: 300;
+        color: #353536;
+    }
+    .professions p{
+        position: absolute;
+        top: 60px;
+        margin: 2%;
+        font-size: 10px;
+        font-weight: 300;
+        color: #353536;
+    }
+
+
+}
